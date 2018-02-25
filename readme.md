@@ -1,6 +1,6 @@
 # OS Helper
 
-OS helper decode is a function that expands the data regarding classification codes for properties within UK that are a part of AddressBase database distributed by OS' Places API. Find more at [OS Places API docs][https://apidocs.os.uk/]
+OS helper decode is a function that expands the data regarding classification codes for properties within UK that are a part of AddressBase database distributed by OS' Places API. Find more at [OS Places API docs](https://apidocs.os.uk/)
 
 To use it, simply import it and call `decode`, passing it your classification code. Example:
 

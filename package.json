@@ -1,0 +1,8 @@
+{
+  "name": "os-helper-encode",
+  "version": "1.0.0",
+  "description": "A simple function that gives you all the data for a certain classification code bound to a address served by OS' AddressBase database.",
+  "main": "index.js",
+  "author": "Daniel Kaczmarczyk",
+  "license": "ISC"
+}

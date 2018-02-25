@@ -7,7 +7,7 @@ To use it, simply import it and call `decode`, passing it your classification co
 `npm install os-helper`
 
 ```
-import osHelper from 'os-helper-encode';
+import osHelper from 'os-helper';
 
 console.log(osHelper.decode('ZW99LG'))
 

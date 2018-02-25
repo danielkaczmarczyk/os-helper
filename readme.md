@@ -1,15 +1,15 @@
-# os-helper-encode
+#OS Helper
 
-OS helper encode is a function that expands the data regarding classification codes for properties within UK that are a part of AddressBase database distributed by OS' Places API. Find more at (OS Places API docs)[https://apidocs.os.uk/]
+OS helper decode is a function that expands the data regarding classification codes for properties within UK that are a part of AddressBase database distributed by OS' Places API. Find more at (OS Places API docs)[https://apidocs.os.uk/]
 
-To use it, simply import it and call `encode`, passing it your classification code. Example:
+To use it, simply import it and call `decode`, passing it your classification code. Example:
 
-`npm install os-helper-encode`
+`npm install os-helper`
 
 ```
-import osHelperEncode from 'os-helper-encode';
+import osHelper from 'os-helper-encode';
 
-console.log(osHelperEncode.encode('ZW99LG'))
+console.log(osHelper.decode('ZW99LG'))
 
 console output:
 >>> 

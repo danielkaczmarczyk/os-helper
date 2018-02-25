@@ -1,6 +1,6 @@
-const encodings = require('./encodings');
+const data = require('./encodings');
 
-exports.encode = function(classificationCode) {
-  return encodings[classificationCode];
+exports.decode = function(classificationCode) {
+  return data[classificationCode];
 };
 
